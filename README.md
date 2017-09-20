@@ -16,7 +16,7 @@ The goal of this project is to train a deep neural network drive the car autonom
 
 Please see the [rubric points](https://review.udacity.com/#!/rubrics/432/view) points for this project.
 
-![alt text](pic_4.png) "Driving autonomous"
+![alt text](pic_4.png "Driving autonomous")
 
 ### Requirements and Installations
 #### Installations
