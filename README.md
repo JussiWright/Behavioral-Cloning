@@ -83,15 +83,16 @@ I tried the basic structure described in the course, then the Lenet structure, n
 Eventually I ended up using the Comma.ai design because it work smooth and I got the car to stay on track pretty well.
 
 LeNet:
-![alt text](lenet.png \"LeNet\")
+![alt text](lenet.png "LeNet")
 
 nVidia model: 
-![alt text](nvidia_cnn.png \"nVidia\")
+![alt text](nvidia_cnn.png "nVidia")
 
 #### 2. Final Model Architecture
 The final model architecture (model.py lines 76-89) consisted of a convolution neural network with the following layers and layer sizes:
 
 Model architechture (comma.ai)
+
 | Layer (type)         | Output Shape           | Param no  |
 | ------------- |:-------------:| -----:|
 | Lamda_1      | None, 16, 32, 1) | 0 |
