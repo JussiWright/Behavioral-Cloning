@@ -114,13 +114,13 @@ Total params: 131 697 Train on 40983 samples, validate on 7232 samples loss: 0.0
 
 To capture good driving behavior, I first recorded couple of laps on track one using center lane driving. Here is an example image of center lane driving:
 
-alt text
+![alt text](pic_7.png)
 
 #### Data Collection
 
 I then recorded the vehicle recovering from the left side and right sides of the road back to center so that the vehicle would learn to to return to the track after having left the route. These images show what a recovery looks like:
 
-alt text
+![alt text](pic_5.png)
 
 I also run the track in the opposite direction, so that there would be steering angle-data equally in both directions.
 Then I repeated this process on track two in order to get more data points.
@@ -140,12 +140,12 @@ Images have been converted to HSV color space and only the S channel is used. Th
 To balance the data, all the images and steering angles have been flipped and added to the training set. This balances data because it makes egual number turns to both sides (left/right). For example, here is an image that has then been flipped:
 
 Original image 
+![alt text](pic_2.jpg)
 
-alt text
+Flipped image
+![alt text](pic_3.jpg)
 
-Flipped image alt text
-
-HSV image (S-channel) alt text
+HSV image (S-channel) ![alt text](pic_6.png)
 
 #### Validating the Network (+Epochs)
 
