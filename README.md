@@ -1,8 +1,6 @@
 ## Behavioral Cloning Project
 
-### Udacity Self Driving Nanodegree - CarND-Term1
-
-#### JW / 12.8.2017
+### Self Driving Car
 
 The goal of this project is to train a deep neural network drive the car autonomously around a simulated around a test track in Udacity's driving simulator. The trained model try to predict right steering angles. The network is trained on from a video stream that was recorded while a human was steering the car. The CNN thus clones the human driving behavior.
 
