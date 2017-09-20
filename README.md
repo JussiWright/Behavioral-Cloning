@@ -92,21 +92,6 @@ nVidia model:
 The final model architecture (model.py lines 76-89) consisted of a convolution neural network with the following layers and layer sizes:
 
 Model architechture (comma.ai)
-
-Layer (type)	Output Shape	Param no
-Lamda_1	None, 16, 32, 1)	0
-convolution2d	(None, 4, 8, 16)	1040
-convolution2d	(None, 2, 4, 32)	12832
-convolution2d	None, 1, 2, 64)	51264
-Flatten	(None, 128)	0
-Dropout	(None, 128)	0
-ELU 1	None, 128)	0
-Dense	(None, 512)	66048
-Dropout	(None, 512)	0
-ELU 2	None, 512)	0
-Dense	(None, 1)	513
-
-
 | Layer (type)         | Output Shape           | Param no  |
 | ------------- |:-------------:| -----:|
 | Lamda_1      | None, 16, 32, 1) | 0 |
@@ -120,8 +105,6 @@ Dense	(None, 1)	513
 | Dropout | (None, 512)    |   0 |
 | ELU 2     | None, 512) | 0 |
 | Dense    | (None, 1)     | 513|
-
-
 
 Total params: 131 697 Train on 40983 samples, validate on 7232 samples loss: 0.0120 val_loss: 0.0124
 
