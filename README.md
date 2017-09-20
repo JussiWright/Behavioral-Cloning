@@ -1,8 +1,8 @@
-### Behavioral Cloning Project
+## Behavioral Cloning Project
 
-#### Udacity Self Driving Nanodegree - CarND-Term1
+### Udacity Self Driving Nanodegree - CarND-Term1
 
-##### JW / 12.8.2017
+#### JW / 12.8.2017
 
 The goal of this project is to train a deep neural network drive the car autonomously around a simulated around a test track in Udacity's driving simulator. The trained model try to predict right steering angles. The network is trained on from a video stream that was recorded while a human was steering the car. The CNN thus clones the human driving behavior.
 
@@ -69,9 +69,9 @@ model.h5
 writeup_report.md
 * explain the structure of my network and training approach
 
-### Model Architecture and Training Strategy
+## Model Architecture and Training Strategy
 
-#### 1. Solution Design Approach
+### 1. Solution Design Approach
 * CarND (lecture example)
 * Lenet
 * nVidia
@@ -88,7 +88,7 @@ LeNet:
 nVidia model: 
 ![alt text](nvidia_cnn.png "nVidia")
 
-#### 2. Final Model Architecture
+### 2. Final Model Architecture
 The final model architecture (model.py lines 76-89) consisted of a convolution neural network with the following layers and layer sizes:
 
 Model architechture (comma.ai)
@@ -140,14 +140,18 @@ Images have been converted to HSV color space and only the S channel is used. Th
 To balance the data, all the images and steering angles have been flipped and added to the training set. This balances data because it makes egual number turns to both sides (left/right). For example, here is an image that has then been flipped:
 
 Original image 
+
 ![alt text](pic_2.jpg)
 
 Flipped image
+
 ![alt text](pic_3.jpg)
 
-HSV image (S-channel) ![alt text](pic_6.png)
+HSV image (S-channel) 
 
-#### Validating the Network (+Epochs)
+![alt text](pic_6.png)
+
+### Validating the Network (+Epochs)
 
 I finally randomly shuffled the data set and put 15% of the data into a validation set.
 
@@ -165,6 +169,6 @@ If the model is overfitting, a few ideas could be to use dropout or pooling laye
 
 Ideally, the model will make good predictions on both the training and validation sets. The implication is that when the network sees an image, it can successfully predict what angle was being driven at that moment.
 
-#### Conclusions
+### Conclusions
 In the future could compare the results using a more accurate image quality and a keros generator.
 Larger data set and more versatile use of augmented material (shadows, brightnes,etc) would likely improve the results.
